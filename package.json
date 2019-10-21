@@ -1,0 +1,67 @@
+{
+  "name": "about",
+  "version": "3.13.0",
+  "private": true,
+  "scripts": {
+    "build": "vue-cli-service build",
+    "clean": "rm -rf build",
+    "deps:check": "npx npm-check --skip-unused --update",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve --open",
+    "sort-package-json": "npx sort-package-json"
+  },
+  "babel": {
+    "presets": [
+      "@vue/app"
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "eslintConfig": {
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "root": true,
+    "rules": {}
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.24",
+    "@fortawesome/free-brands-svg-icons": "^5.11.1",
+    "@fortawesome/free-regular-svg-icons": "^5.11.1",
+    "@fortawesome/free-solid-svg-icons": "^5.11.1",
+    "@fortawesome/vue-fontawesome": "^0.1.7",
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "is-mobile": "^2.1.0",
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1",
+    "postcss-clearfix": "^2.0.1",
+    "postcss-short-size": "^4.0.0",
+    "sass-loader": "^7.0.1",
+    "vue": "^2.6.10",
+    "vue-cli-plugin-pug": "^1.0.7",
+    "vue-cli-plugin-yaml": "^1.0.1",
+    "vue-particles": "^1.0.9",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {},
+      "cssnano": {},
+      "postcss-clearfix": {},
+      "postcss-short-size": {}
+    }
+  }
+}
