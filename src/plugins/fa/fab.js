@@ -4,12 +4,14 @@ import {
   faGithub,
   faLinkedin,
   faTwitter,
-  faMedium
+  faMedium,
+  faSlideshare
 } from '@fortawesome/free-brands-svg-icons'
 
 library.add(
   faGithub,
   faLinkedin,
   faTwitter,
-  faMedium
+  faMedium,
+  faSlideshare
 )

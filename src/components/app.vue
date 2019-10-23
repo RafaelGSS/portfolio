@@ -76,6 +76,11 @@ export default {
           title: 'Medium',
           icon: ['fab', 'medium'],
           url: 'https://medium.com/@rafaelgss'
+        },
+        {
+          title: 'SlideShare',
+          icon: ['fab', 'slideshare'],
+          url: 'https://pt.slideshare.net/RafaelSilva939'
         }
       ]
     }
