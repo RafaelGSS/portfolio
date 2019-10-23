@@ -46,8 +46,8 @@ export default {
           text: 'Back-end'
         },
         {
-          text: '@avec',
-          link: 'https://github.com/avec'
+          text: '@quero-edu',
+          link: 'https://github.com/quero-edu'
         }
       ],
       version: process.env.VERSION,
@@ -74,7 +74,7 @@ export default {
         },
         {
           title: 'Medium',
-          icon: ['fab', 'fa-medium'],
+          icon: ['fab', 'medium'],
           url: 'https://medium.com/@rafaelgss'
         }
       ]
@@ -147,12 +147,13 @@ body {
   }
 
   &:after {
-    background-image: radial-gradient(
-      ellipse at center,
-      rgba(black, .75) 0%,
-      rgba(black, 1) 70%,
-      rgba(black, 1) 100%
-    );
+    background-image: radial-gradient(ellipse at center,#327bab8f 0,#000000 70%,#000 100%);
+    // background-image: radial-gradient(
+    //   ellipse at center,
+    //   rgba(black, .75) 0%,
+    //   rgba(black, 1) 70%,
+    //   rgba(black, 1) 100%
+    // );
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
