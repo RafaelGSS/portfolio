@@ -10,10 +10,17 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@master
+    - name: build
+      uses: actions/setup-node@v1
+      with:
+        node-version: '10.x'
+    - run: |
+        npm install
+        npm run build
+
+    - name: deploy
+      uses: peaceiris/actions-gh-pages@v2.5.0
       env:
-        ACCESS_TOKEN: ${{ secrets.PORTFOLIO_KEY_ACTIONS }}
-        BRANCH: gh-pages
-        FOLDER: dist
-        BUILD_SCRIPT: npm install && npm run generate
+        ACTIONS_DEPLOY_KEY: ${{ secrets.PORTFOLIO_KEY_ACTIONS }}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: ./build
