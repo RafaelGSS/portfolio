@@ -17,7 +17,7 @@
     :particlesNumber="20"
   )
   .info
-    img.photo(src="../assets/photo.jpg")
+    img.photo(src="../assets/profile.jpg")
     h1 {{ name }}
     h2
       span(v-for="(title, index) in titles")
