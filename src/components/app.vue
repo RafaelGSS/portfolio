@@ -17,7 +17,7 @@
     :particlesNumber="20"
   )
   .info
-    img.photo(src="../assets/profile.jpg")
+    img.photo(src="../assets/photo.jpg")
     h1 {{ name }}
     h2
       span(v-for="(title, index) in titles")
@@ -81,6 +81,11 @@ export default {
           title: 'SlideShare',
           icon: ['fab', 'slideshare'],
           url: 'https://pt.slideshare.net/RafaelSilva939'
+        },
+        {
+          title: 'Personal Blog',
+          icon: ['fas', 'blog'],
+          url: 'https://blog.rafaelgss.com.br/'
         }
       ]
     }
