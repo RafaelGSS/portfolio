@@ -83,7 +83,7 @@ export default {
           url: 'https://pt.slideshare.net/RafaelSilva939'
         },
         {
-          title: 'Personal Blog',
+          title: 'Personal Blog - RafaelGSS',
           icon: ['fas', 'blog'],
           url: 'https://blog.rafaelgss.com.br/'
         }
