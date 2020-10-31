@@ -149,11 +149,10 @@ body {
 
   &:before {
     background-color: #333;
-    background-image: url(../assets/bg1.jpg);
+    background-image: url(../assets/bg1-bw.min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: grayscale(100%);
   }
 
   &:after {
