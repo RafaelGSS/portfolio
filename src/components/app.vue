@@ -46,8 +46,8 @@ export default {
           text: 'Back-end'
         },
         {
-          text: '@quero-edu',
-          link: 'https://github.com/quero-edu'
+          text: '@habit',
+          link: 'https://github.com/habit-global'
         }
       ],
       version: process.env.VERSION,
