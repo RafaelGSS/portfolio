@@ -153,16 +153,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: grayscale(100%);
-
-    animation-name: flashy-background;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: steps(1);
-
-    @media (prefers-reduced-motion) {
-      animation-play-state: paused;
-    }
   }
 
   &:after {
@@ -177,14 +167,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
-}
-
-@keyframes flashy-background {
-  16% { background-image: url(../assets/bg2.jpg); }
-  33% { background-image: url(../assets/bg3.jpg); }
-  50% { background-image: url(../assets/bg4.jpg); }
-  66% { background-image: url(../assets/bg5.jpg); }
-  83% { background-image: url(../assets/bg6.jpg); }
 }
 
 .info {
