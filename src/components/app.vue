@@ -53,11 +53,6 @@ export default {
       version: process.env.VERSION,
       btns: [
         {
-          title: 'E-mail',
-          icon: ['fas', 'envelope'],
-          url: 'mailto:rafael.nunu@hotmail.com'
-        },
-        {
           title: 'GitHub',
           icon: ['fab', 'github'],
           url: 'https://github.com/rafaelgss'
@@ -71,16 +66,6 @@ export default {
           title: 'Twitter',
           icon: ['fab', 'twitter'],
           url: 'https://www.twitter.com/_rafaelgss'
-        },
-        {
-          title: 'Medium',
-          icon: ['fab', 'medium'],
-          url: 'https://medium.com/@rafaelgss'
-        },
-        {
-          title: 'SlideShare',
-          icon: ['fab', 'slideshare'],
-          url: 'https://pt.slideshare.net/RafaelSilva939'
         },
         {
           title: 'Personal Blog - RafaelGSS',
