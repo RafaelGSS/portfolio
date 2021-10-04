@@ -46,8 +46,8 @@ export default {
           text: 'Back-end'
         },
         {
-          text: '@habit',
-          link: 'https://github.com/habit-global'
+          text: '@nearform',
+          link: 'https://github.com/nearform'
         }
       ],
       version: process.env.VERSION,
