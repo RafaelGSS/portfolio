@@ -45,7 +45,7 @@
     "@vue/cli-service": "^3.11.0",
     "@vue/eslint-config-standard": "^4.0.0",
     "is-mobile": "^2.1.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "normalize.css": "^8.0.1",
     "postcss-clearfix": "^2.0.1",
     "postcss-short-size": "^4.0.0",
