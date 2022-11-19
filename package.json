@@ -42,7 +42,7 @@
     "@fortawesome/vue-fontawesome": "^0.1.7",
     "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-plugin-eslint": "^3.11.0",
-    "@vue/cli-service": "^3.11.0",
+    "@vue/cli-service": "^5.0.8",
     "@vue/eslint-config-standard": "^4.0.0",
     "is-mobile": "^2.1.0",
     "node-sass": "^4.13.1",
