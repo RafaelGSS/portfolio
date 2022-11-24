@@ -40,10 +40,7 @@ export default {
       name: 'Rafael Gonzaga',
       titles: [
         {
-          text: 'Software Engineer'
-        },
-        {
-          text: 'Back-end'
+          text: 'Staff Engineer'
         },
         {
           text: '@nearform',
