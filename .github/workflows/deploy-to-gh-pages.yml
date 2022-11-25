@@ -11,7 +11,7 @@ jobs:
       uses: actions/checkout@master
 
     - name: build
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v3
       with:
         node-version: '18.x'
     - run: |
@@ -19,7 +19,7 @@ jobs:
         npm run build
 
     - name: deploy
-      uses: peaceiris/actions-gh-pages@v2.5.0
+      uses: peaceiris/actions-gh-pages@v3.9.0
       env:
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: ./build
